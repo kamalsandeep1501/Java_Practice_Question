@@ -11,6 +11,7 @@ public class CountSundayWithDay {
                 break;
             }
         }
+        System.out.println("index: " + index);
         int count=0;
         for(int i=index;i<=num+1;i++){
             if(days[i % n].equals("Sunday")){
